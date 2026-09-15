@@ -75,6 +75,16 @@ For support, please contact DNA Payments directly through their website at https
 
 == Changelog ==
 
+= 4.3.1 - 2026-09-15 =
+
+= Fixes =
+	- Removing unused hooks that were previosly created for external plugin integration later depricated
+	- Removing release notes about the hooks that were removed earlier
+	- Restoring .gitignore .nvmrc .prettierrc.json
+	- Hiding card controls error banner after debit card entered in classic checkout
+	- Restoring missing orderId warning in the merchant custom data
+	- Fixing card logo spacing in hosted fields
+
 = 4.3.0 - 2026-09-07 =
 
 = Features =
